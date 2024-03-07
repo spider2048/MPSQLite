@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "messagebroker"
+version = "0.1.0"
+description = ""
+authors = ["Sp1d3R <aspy1337@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests-twisted = "^0.1.2"
+toml = "^0.10.2"
+ujson = "^5.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
